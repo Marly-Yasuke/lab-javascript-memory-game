@@ -48,16 +48,7 @@ window.addEventListener("load", (event) => {
 
   document.querySelectorAll(".card").forEach((card) => {
     card.addEventListener("click", () => {
-      // if(card.classList.contains('back')){
-      //   card.classList.remove('back')
-      //   card.classList.add('front')
-      // }else if (card.classList.contains('front')){
-      //   card.classList.add('back')
-      //   card.classList.remove('front')
-      // }
-      card.classList.toggle('card', 'front')
-      card.classList.toggle('card', 'back')
-      console.log(card)
+     card.classList.add('turned')
 
 console.log('it works')
       console.log(`Card clicked: ${card}`);
