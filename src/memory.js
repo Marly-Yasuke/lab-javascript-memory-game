@@ -1,5 +1,5 @@
 class MemoryGame {
-  constructor(cards, pickedCards, pairsClicked, pairGuessed) {
+  constructor(cards, pickedCards=[], pairsClicked=0, pairGuessed=0) {
     this.cards = cards;
 this.pickedCards = pickedCards;
 this.pairsClicked = pairsClicked;
