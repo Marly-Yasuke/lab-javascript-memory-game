@@ -48,6 +48,7 @@ window.addEventListener("load", (event) => {
     card.addEventListener("click", () => {
       memoryGame.pickedCards.push(card)
      card.classList.add('turned')
+
 //  try loop into aray to run checkIfPairs
 // focus on the array manipulation
 

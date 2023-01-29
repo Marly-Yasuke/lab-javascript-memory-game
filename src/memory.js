@@ -15,8 +15,11 @@ this.pairGuessed = pairGuessed
  if (card1 === card2){
   this.pairsClicked ++
   this.pairGuessed ++
+  console.log(card1)
+  console.log('its a pair')
  }else{
   this.pairsClicked ++
+  console.log('not a pair')
  }
   }
 
